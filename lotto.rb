@@ -16,5 +16,5 @@ result.each do |key, value|
     arr << value if key.include? "drwtNo"
 end
 
-
 puts arr.sort
+
